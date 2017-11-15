@@ -204,12 +204,6 @@ PRODUCT_PACKAGES += \
     procrank
 endif
 
-# Conditionally build in su
-#ifeq ($(WITH_SU),true)
-#PRODUCT_PACKAGES += \
-#    su
-#endif
-
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
