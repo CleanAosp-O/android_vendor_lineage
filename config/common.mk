@@ -114,9 +114,8 @@ PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
     ExactCalculator \
-    Jelly \
+    Launcher3 \
     LockClock \
-    Trebuchet \
     WallpaperPicker \
     WeatherProvider
 
@@ -203,13 +202,13 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
     procmem \
     procrank
+endif
 
 # Conditionally build in su
-ifeq ($(WITH_SU),true)
-PRODUCT_PACKAGES += \
-    su
-endif
-endif
+#ifeq ($(WITH_SU),true)
+#PRODUCT_PACKAGES += \
+#    su
+#endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 

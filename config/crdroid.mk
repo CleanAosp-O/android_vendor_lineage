@@ -43,9 +43,3 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES := \
     persist.service.adb.enable=1
 
 EXCLUDE_SYSTEMUI_TESTS := true
-
-# Custom packages
-PRODUCT_PACKAGES += \
-    crDroidWallpapers \
-    crDroidFileManager \
-    crDroidMusic
