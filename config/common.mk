@@ -115,7 +115,6 @@ PRODUCT_PACKAGES += \
     LineageSettingsProvider \
     ExactCalculator \
     Launcher3 \
-    LockClock \
     WallpaperPicker \
     WeatherProvider
 
