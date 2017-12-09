@@ -17,6 +17,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Prebuilts
 PRODUCT_PACKAGES += \
     GBoard \
+    GoogleFiles \
     NexusOverlay \
     Pixel2Launcher \
     PixelOverlay
